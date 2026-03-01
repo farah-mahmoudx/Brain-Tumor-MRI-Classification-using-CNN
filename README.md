@@ -20,8 +20,8 @@ The model is trained on MRI images resized to 128x128 and normalized to improve 
 ## 📊 Model Performance
 
 ### Training & Validation Curves
-
-![Training Curves](results/accuracy&loss curve .png)
+results/confusion_matrix.png
+![Accuracy Curve](results/confusion_matrix.png)
 
 The model was trained for **~42 epochs**. Here's what the curves tell us:
 
