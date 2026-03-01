@@ -15,3 +15,19 @@ The model is trained on MRI images resized to 128x128 and normalized to improve 
 - Preprocessing:
   - Image resizing
   - Normalization (pixel values scaled to [0,1])
+
+
+## 📊 Model Performance
+
+### Training & Validation Curves
+
+![Training Curves]("C:\Users\ADMIN\Downloads\first .png")
+
+The model was trained for **~42 epochs**. Here's what the curves tell us:
+
+- **Train Accuracy** climbed steadily and reached ~**98%**
+- **Validation Accuracy** was noisy early on (due to the small validation set), but stabilized around **92–95%** by the end
+- **Train Loss** dropped smoothly close to **0**
+- **Validation Loss** started very high (~11) but came down and stabilized around **0.2–0.4**
+
+> The gap between train and validation is expected — the model generalizes well despite some noise in early epochs.
