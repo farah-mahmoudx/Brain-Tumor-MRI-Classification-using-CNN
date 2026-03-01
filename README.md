@@ -61,3 +61,5 @@ The model was trained on brain MRI images with 4 classes:
 | Meningioma | A tumor that forms on brain membranes |
 | Pituitary | A tumor in the pituitary gland |
 ---
+ ## 👨‍💻 Collaborators
+- [Judy Yehia](https://github.com/Judyehia)
