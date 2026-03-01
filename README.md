@@ -15,7 +15,7 @@ The model is trained on MRI images resized to 128x128 and normalized to improve 
   - Image resizing
   - Normalization (pixel values scaled to [0,1])
 
-
+---
 ## 📊 Model Performance
 
 ### Training & Validation Curves
@@ -31,6 +31,7 @@ The model was trained for **~50 epochs**. Here's what the curves tell us:
 
 > The gap between train and validation is expected — the model generalizes well despite some noise in early epochs.
 
+---
 ### Confusion Matrix
 
 ![Confusion Matrix](results/confusion_matrix.png)
@@ -48,7 +49,7 @@ Results on the **test set**:
 - **Glioma** had the most misclassifications (often confused with Meningioma)
 - Overall accuracy: **~95%**
 
-
+---
 ## 🗂️ Dataset
 
 The model was trained on brain MRI images with 4 classes:
@@ -59,4 +60,4 @@ The model was trained on brain MRI images with 4 classes:
 | Healthy | No tumor present |
 | Meningioma | A tumor that forms on brain membranes |
 | Pituitary | A tumor in the pituitary gland |
-
+---
