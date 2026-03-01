@@ -21,9 +21,9 @@ The model is trained on MRI images resized to 128x128 and normalized to improve 
 
 ### Training & Validation Curves
 results/confusion_matrix.png
-![Accuracy Curve](results/accuracy_loss_curve.png)
+![Accuracy_loss Curve](results/accuracy_loss_curve.png)
 
-The model was trained for **~42 epochs**. Here's what the curves tell us:
+The model was trained for **~50 epochs**. Here's what the curves tell us:
 
 - **Train Accuracy** climbed steadily and reached ~**98%**
 - **Validation Accuracy** was noisy early on (due to the small validation set), but stabilized around **92–95%** by the end
