@@ -21,7 +21,7 @@ The model is trained on MRI images resized to 128x128 and normalized to improve 
 
 ### Training & Validation Curves
 
-![Training Curves]("C:\Users\ADMIN\Downloads\first .png")
+![Training Curves]("results/accuracy&loss curve .png")
 
 The model was trained for **~42 epochs**. Here's what the curves tell us:
 
