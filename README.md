@@ -7,7 +7,7 @@ The model is trained on MRI images resized to 128x128 and normalized to improve 
 
 ---
 - ## 🗂️ Dataset
-- 
+ 
 📥 [Download Dataset on Kaggle](https://www.kaggle.com/datasets/rm1000/brain-tumor-mri-scans)
 - Structure: Each class stored in a separate folder
 - Input size: 128x128 RGB images
