@@ -31,3 +31,20 @@ The model was trained for **~50 epochs**. Here's what the curves tell us:
 - **Validation Loss** started very high (~11) but came down and stabilized around **0.2–0.4**
 
 > The gap between train and validation is expected — the model generalizes well despite some noise in early epochs.
+
+### Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix.png)
+
+Results on the **test set**:
+
+| Class | Correct | Wrong |
+|------------|---------|-------|
+| Glioma | 217 | 26 |
+| Healthy | 297 | 3 |
+| Meningioma | 234 | 13 |
+| Pituitary | 260 | 4 |
+
+- **Healthy** and **Pituitary** tumors were classified almost perfectly
+- **Glioma** had the most misclassifications (often confused with Meningioma)
+- Overall accuracy: **~95%**
