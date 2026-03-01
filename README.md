@@ -48,3 +48,16 @@ Results on the **test set**:
 - **Healthy** and **Pituitary** tumors were classified almost perfectly
 - **Glioma** had the most misclassifications (often confused with Meningioma)
 - Overall accuracy: **~95%**
+
+
+## 🗂️ Dataset
+
+The model was trained on brain MRI images with 4 classes:
+
+| Class | Description |
+|------------|--------------------------------------|
+| Glioma | A tumor that starts in the brain cells |
+| Healthy | No tumor present |
+| Meningioma | A tumor that forms on brain membranes |
+| Pituitary | A tumor in the pituitary gland |
+
